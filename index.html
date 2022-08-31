@@ -76,14 +76,20 @@
             </a>
           </div>
           <div class="home__img">
-            <svg class="home__blob" id="visual" viewBox="0 0 900 600" width="400" height="400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-              <g transform="translate(445.65722327979836 275.6589103570901)">
-                  <path d="M164.1 -173.6C192.4 -135.8 181.2 -67.9 181.6 0.4C181.9 68.6 193.8 137.2 165.5 187.2C137.2 237.2 
-                          68.6 268.6 11.2 257.4C-46.2 246.2 -92.4 192.4 -125.9 142.4C-159.4 92.4 -180.2 46.2 -174.8 5.4C-169.4 
-                          -35.4 -137.7 -70.7 -104.2 -108.5C-70.7 -146.4 -35.4 -186.7 16.3 -203C67.9 -219.2 135.8 -211.4 164.1 -173.6" 
-                          fill="#FFD6D7">
-                  </path>
-                  <image class="home__blob-img" xlink:href="assets/img/photo_profil.jpg" />
+            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <mask id="mask0" mask-type="alpha">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                  130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                  97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                  0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+              </mask>
+              <g mask="url(#mask0)">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                  165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                  129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                  -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                <image class="home__blob-img" x="12" y="8" xlink:href="assets/img/photo_profil-removebg.png"/>
               </g>
             </svg>
           </div>
@@ -107,7 +113,35 @@
     </section>
 
     <!--=================== ABOUT ===================-->
-
+    <section class="about section" id="about">
+      <h2 class="section__title">About Me</h2>
+      <span class="section__subtitle">My introduction</span>
+      <div class="about__container container grid">
+        <img src="assets/img/about.jpg" alt="about" class="about__img">
+        <div class="about__data">
+          <p class="about__description">Web developer, with extensive knowlegde and years of experience, working in web technologies, delivering quality work.</p>
+          <div class="about__info">
+            <div>
+              <span class="about__info-title">03+</span>
+              <span class="about__info-name">Years <br> experience</span>
+            </div>
+            <div>
+              <span class="about__info-title">10+</span>
+              <span class="about__info-name">Completed <br> projects</span>
+            </div>
+            <div>
+              <span class="about__info-title">02+</span>
+              <span class="about__info-name">Companies <br> worked</span>
+            </div>
+          </div>
+          <div class="about__buttons">
+            <a download="" href="assets/pdf/TA_LE-CV.pdf" class="button button--flex">
+              Download CV<i class="uil uil-download-alt button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
     <!--=================== SKILLS ===================-->
 
     <!--=================== QUALIFICATION ===================-->
